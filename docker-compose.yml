@@ -17,7 +17,7 @@ services:
     depends_on:
       - mysqldb
     build: .
-    image: arwamansoury/spring_projet
+    image: arwamansoury/devops
     restart: on-failure
     ports:
       - "8081:8081"
