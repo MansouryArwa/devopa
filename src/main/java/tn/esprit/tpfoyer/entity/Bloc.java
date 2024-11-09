@@ -33,5 +33,10 @@
         @ToString.Exclude
         Set<Chambre> chambres = new HashSet<Chambre>();
 
+        public long getCapaciteBloc() {
+            return capaciteBloc;
+        }
+
+
     }
 
